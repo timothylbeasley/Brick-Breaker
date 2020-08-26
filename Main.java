@@ -1,7 +1,6 @@
 package BrickBreaker.JAVA;
 
 import javax.swing.*;
-import java.lang.*;
 
 public class Main {
 
@@ -11,7 +10,7 @@ public class Main {
 		JFrame obj = new JFrame();
 
 		//Initialize Game
-		Gameplay gamePlay = new Gameplay();
+		BrickBreaker.JAVA.Gameplay gamePlay = new BrickBreaker.JAVA.Gameplay();
 
 		//Set Title Tag for the Window
 		obj.setTitle("Breakout Ball");
